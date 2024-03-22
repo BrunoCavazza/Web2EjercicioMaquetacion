@@ -1,0 +1,28 @@
+.logo_grande {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_logo_grande{
+    width: 600px;
+    height: 500px;
+}
+.wave_img{
+    
+    width: 300%;
+    height: 300%;
+}
+.wave {
+    position: relative;
+    animation-name: Carga;
+    animation-duration: 4s;
+}
+
+@keyframes Carga {
+    0%   { left:2000px; }
+    25%  { left:2000px;}
+    50%  { left:2000px;}
+    75%  { left:0px; }
+    100% { left:0px; }
+}
